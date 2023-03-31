@@ -1,0 +1,8 @@
+->Login toast not showing up in register and login
+->Register page design
+->Not redirecting to dashboard page after
+localhost:3000/dashboard on login page
+public private routes (starts 3:30:00)
+->Register is not working properly due to forgot password. Forgot password is left
+->Admin dashboard is not redirecting to /dashboard/admin its redirecting to login page. admin&userdashboard
+->req.user = decode in authMiddleware.js . Learn about it what it does
