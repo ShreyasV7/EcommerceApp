@@ -6,3 +6,4 @@ public private routes (starts 3:30:00)
 ->Register is not working properly due to forgot password. Forgot password is left
 ->Admin dashboard is not redirecting to /dashboard/admin its redirecting to login page. admin&userdashboard
 ->req.user = decode in authMiddleware.js . Learn about it what it does
+->When user does /dashboard directly login pages opens, but after login, user is directed to blank page

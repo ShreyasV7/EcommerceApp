@@ -1,6 +1,10 @@
 import React from "react";
 import Layout from "./../components/Layout/Layout";
-import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
+// import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
+import { BiMailSend } from "react-icons/bi";
+import { BiPhoneCall } from "react-icons/bi";
+import { BiSupport } from "react-icons/bi";
+
 const Contact = () => {
   return (
     <Layout title={"Contact-Shoppers"}>
