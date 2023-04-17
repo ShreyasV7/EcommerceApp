@@ -7,3 +7,12 @@ public private routes (starts 3:30:00)
 ->Admin dashboard is not redirecting to /dashboard/admin its redirecting to login page. admin&userdashboard
 ->req.user = decode in authMiddleware.js . Learn about it what it does
 ->When user does /dashboard directly login pages opens, but after login, user is directed to blank page
+->test product api on insomania, not tested from Product APIs
+->update API of product is also left
+
+
+
+Learnings:
+->formidable pckg is used to upload files in application like pdf,word,etc
+->Populate - If you have a document pointing to another document (i.e. contains an ID reference), 
+populate will fetch the referenced document.

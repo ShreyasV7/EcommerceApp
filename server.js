@@ -23,7 +23,7 @@ app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes); 
 
 app.get("/", (req, res) => {
-  res.send("<h1>This is App</h1>");
+  res.send("<h1>This is App</h1>"); 
 });
 
 const PORT = process.env.PORT || 8080;
