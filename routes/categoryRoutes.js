@@ -8,7 +8,7 @@ import { deleteCategory } from "./../controllers/categoryController.js";
 const router = express.Router();
 
 //routes
-// create category
+// create category created
 router.post(
   "/create-category",
   requireSignIn,
@@ -16,7 +16,7 @@ router.post(
   createCategoryController
 );
 
-// update category
+// update category created
 router.put(
   "/update-category/:id",
   requireSignIn,
@@ -24,14 +24,13 @@ router.put(
   updateCategoryController
 );
 
-
-// get all category
+// get all category created
 router.get("/getall-category", categoryController);
 
 // get one category
-router.get("/single-category/:slug", singleCategoryController)
+router.get("/single-category/:slug", singleCategoryController);
 
 // delete
-router.delete("/delete-category/:id", requireSignIn, isAdmin, deleteCategory)
+router.delete("/delete-category/:id", requireSignIn, isAdmin, deleteCategory);
 
 export default router;
