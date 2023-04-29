@@ -9,7 +9,7 @@ import { deleteProductController } from "../controllers/productController.js";
 import { updateProductController } from "../controllers/productController.js";
 const router = express.Router();
 
-// create product
+// create a new product
 router.post(
   "/create-product",
   requireSignIn,
@@ -18,7 +18,8 @@ router.post(
   createProductController
 );
 
-router.post(
+// create update of product
+router.put(
   "/update-product/:pid",
   requireSignIn,
   isAdmin,
@@ -36,5 +37,5 @@ router.get("/get-product/:slug", getSingleProduct);
 router.get("/product-photo/:pid", productPhotoController);
 
 //delete
-router.delete("/product/:pid", deleteProductController);
+router.delete("/delete-product/:pid", deleteProductController);
 export default router;
