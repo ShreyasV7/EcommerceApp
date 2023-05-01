@@ -7,9 +7,7 @@ public private routes (starts 3:30:00)
 ->Admin dashboard is not redirecting to /dashboard/admin its redirecting to login page. admin&userdashboard
 ->req.user = decode in authMiddleware.js . Learn about it what it does
 ->When user does /dashboard directly login pages opens, but after login, user is directed to blank page
-->test product api on insomania, not tested from Product APIs
-->update API of product is also left
-
+->react category crud is left
 
 
 Learnings:
