@@ -9,6 +9,7 @@ public private routes (starts 3:30:00)
 ->When user does /dashboard directly login pages opens, but after login, user is directed to blank page
 ->test product api on insomania, not tested from Product APIs
 ->update API of product is also left
+->issue in updating product
 
 
 
